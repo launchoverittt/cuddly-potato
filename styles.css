@@ -1,0 +1,179 @@
+/*
+Notes
+- Might want to make these all basd on REM so we can scale them up/down for printing?
+*/
+
+html{
+	font-size:10px;
+}
+body{
+	font-family: 'Roboto',sans-serif;
+}
+
+	h1{
+		font-size:4rem;
+	}
+	h2{
+		font-size:3rem;
+		margin-bottom: 1rem;
+	}
+	p,li,span,th{
+		font-size:1.6rem;
+	}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+	padding:1rem;
+	background-color:white;
+	text-align: justify;
+}
+.card{
+/*	width: 250px;
+	height: 350px;*/
+	
+	width: 29.4rem;
+	height: 42rem;
+	margin: 0;
+	padding: 1rem;
+	border-radius:1rem;
+	border: .5rem solid rgba(0,0,0,.8);
+	background-color:rgba(0,0,0,.02);
+	display:block;
+	float:left;
+	/*display: inline-block;*/
+	/*margin:20px;*/
+	vertical-align: bottom;
+}
+.topBox{
+	height: 6rem;
+}
+	.thumbnail{
+		width: 5rem;
+		height: 5rem;
+		border-radius:50%;
+		display:block;
+		float: left;
+	}
+.titleBox{
+	text-align: center;
+}
+	.titleBox h2{
+		margin-top:0;
+	}
+
+.infoTable{
+	border-collapse: collapse;
+	width: 100%;
+}
+	.infoTable th, .infoTable td, .infoTable span{
+		font-size:2.4rem;
+	}
+	.infoTable th{
+		border: none;
+		text-align: center;
+	}
+	.infoTable td{
+		border: none;
+		text-align: center;
+	}
+	.adValue{
+		font-weight:800;
+	}
+	.adValue.smaller{
+		font-size:2rem;
+	}
+	.class{
+		color:rgba(0,0,0,.8);
+	}
+	.fiftyfifty td{
+		width: 50%;
+	}
+
+
+
+
+
+.characterSheet{
+	border-radius:10px;
+	border: 4px solid rgba(0,0,0,.8);
+	background-color:rgba(0,0,0,.02);
+	padding: 10px;
+	column-count: 2;
+	column-gap:10px;
+}
+	.numBox{
+		width: 36px;
+		height: 36px;
+		float: left;
+		border: 1px solid #555;
+		text-align: center;
+		line-height: 100%;
+		vertical-align: middle;
+		padding-top: 2px;
+		border-radius:6px;
+		margin: 2px;
+		position:relative;
+	}
+		.numBox span{
+			position: absolute;
+			top: 50%;
+			left: 0;
+			display: block;
+			width: 100%;
+			transform: translateY(-50%);
+		}
+	.boxForBoxes{
+	}
+	.csItem{
+		margin: 0 10px 10px 10px;
+		padding: 10px;
+		border:2px solid #999;
+		break-inside:avoid;
+		border-radius:10px;
+	}
+	.csItem .infoTable th, .infoTable td, .infoTable span{
+		font-size:1.4rem;
+	}
+	.itemList{
+		list-style: none;
+		padding: 0;
+		margin:0;
+	}
+	.itemList li{
+		display: block;
+		float: left;
+		margin:10px 0;
+		padding:0;
+		width: 100%;
+		text-align: left;
+	}
+	h1, h2, h3{
+		margin-top:6px;
+	}
+
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+} 
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+
+.specialBox table{
+	width:40%;
+	float:left;
+}
+.specialBox .boxForBoxes{
+	width:40%;
+	float:left;
+}
